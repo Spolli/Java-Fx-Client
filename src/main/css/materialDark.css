@@ -1,0 +1,60 @@
+.root{
+	-fx-background-color: #1b1b1b;
+	-fx-background-size: 350 350;
+	-fx-background-position: center center;
+}
+
+.label{
+	-fx-text-fill: #ffffff;
+}
+
+#panel{
+	-fx-background-color:  rgb(32, 32, 32);
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 6, 6, 6);
+	-fx-background-radius: 6;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane{
+    -fx-tab-min-width:90px;
+    -fx-padding: 10;
+}
+
+.tab{
+	-fx-background-color:  #383838;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 6, 6, 6);
+	-fx-background-radius: 6;
+}
+
+.tab-pane{
+	-fx-background-color: #1b1b1b;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+}
+
+#image{
+	-fx-background-color: rgb(32, 32, 32);
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 6, 6, 6);
+	-fx-padding: 10;
+	-fx-background-radius: 10;
+}
+
+.button{
+	-fx-text-fill: #ffffff;
+	-fx-background-color: #383838;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 6, 6, 6, 6);
+	-fx-padding: 6;
+	-fx-background-radius: 10;
+}
